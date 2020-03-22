@@ -1,4 +1,4 @@
-# kwiz-config
+# eslint-config
 
 Common config files for the kwiz organization
 
