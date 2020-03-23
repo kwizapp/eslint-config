@@ -1,14 +1,9 @@
 module.exports = {
-  plugins: ["@typescript-eslint/eslint-plugin"],
-  extends: [
-    "plugin:prettier/recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
-  ],
-  rules: {
-    "@typescript-eslint/interface-name-prefix": "off",
-    "@typescript-eslint/explicit-function-return-type": "off",
-    "@typescript-eslint/no-explicit-any": "off",
-    "@typescript-eslint/no-unused-vars": "error"
+  extends: ["@kwizapp/eslint-config-ts", "plugin:react/recommended"],
+  settings: {
+    react: {
+      pragma: "React",
+      version: "detect"
+    }
   }
 };

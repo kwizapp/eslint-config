@@ -1,6 +1,6 @@
 {
   "name": "@kwizapp/eslint-config-ts-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "typescript-react eslint config for the kwiz organization",
   "repository": {
     "type": "git",
