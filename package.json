@@ -9,8 +9,7 @@
   "main": "index.js",
   "files": [
     "index.js",
-    "typescript.js",
-    "typescript-react.js",
+    "react.js",
     "prettier.js",
     "prettier.config.js"
   ],
