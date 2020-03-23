@@ -1,18 +1,12 @@
 {
-  "name": "@kwizapp/eslint-config",
-  "version": "0.0.3",
-  "description": "eslint config files for the kwiz organization",
+  "name": "@kwizapp/eslint-config-ts",
+  "version": "0.0.1",
+  "description": "typescript eslint config for the kwiz organization",
   "repository": {
     "type": "git",
     "url": "https://github.com/kwizapp/kwiz-dotfiles.git"
   },
   "main": "index.js",
-  "files": [
-    "index.js",
-    "react.js",
-    "prettier.js",
-    "prettier.config.js"
-  ],
   "keywords": [
     "dotfiles",
     "eslint"
