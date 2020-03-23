@@ -1,7 +1,7 @@
 {
   "name": "@kwizapp/eslint-config-js",
-  "version": "0.0.1",
-  "description": "base eslint config for the kwiz organization",
+  "version": "0.0.2",
+  "description": "base javascript eslint config for the kwiz organization",
   "repository": {
     "type": "git",
     "url": "https://github.com/kwizapp/kwiz-dotfiles.git"
