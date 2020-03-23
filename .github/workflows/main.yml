@@ -13,8 +13,11 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
-          registry-url: 'https://npm.pkg.github.com'
-          scope: '@kwizapp'
-      - run: npm publish
+          registry-url: "https://npm.pkg.github.com"
+          scope: "@kwizapp"
+      - run: npm publish eslint-config
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - run: npm publish prettier-config
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

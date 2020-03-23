@@ -4,7 +4,7 @@
   "description": "prettier config for the kwiz organization",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kwizapp/kwiz-dotfiles/prettier-config.git"
+    "url": "https://github.com/kwizapp/kwiz-dotfiles.git"
   },
   "main": "index.js",
   "files": [
@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/kwizapp/kwiz-dotfiles/issues"
   },
-  "homepage": "https://github.com/kwizapp/kwiz-dotfiles#readme",
+  "homepage": "https://github.com/kwizapp/kwiz-dotfiles/prettier-config#readme",
   "maintainers": [
     "Roland Schlaefli <rolandschlaefli@gmail.com>",
     "Nik Zaugg <zauggnik@gmail.com>",
