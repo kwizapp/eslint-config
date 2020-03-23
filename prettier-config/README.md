@@ -52,3 +52,5 @@ scripts": {
   "format": "prettier --write \"src/**/*.{js,ts,tsx}\"",
 },
 ```
+
+more information [here](https://prettier.io/)
