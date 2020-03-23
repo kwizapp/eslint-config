@@ -1,7 +1,7 @@
 module.exports = {
   plugins: ["@typescript-eslint/eslint-plugin"],
   extends: [
-    "plugin:prettier/recommended",
+    "@kwizapp/eslint-config-js",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended"
   ],
