@@ -1,7 +1,10 @@
 module.exports = {
+  globals: {
+    MyGlobal: true,
+  },
   plugins: ['@typescript-eslint/eslint-plugin'],
   extends: [
-    './base',
+    'plugin:prettier/recommended',
     'plugin:@typescript-eslint/eslint-recommended',
     'plugin:@typescript-eslint/recommended',
   ],

@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./typescript', 'plugin:react/recommended'],
+  extends: ['./default', 'plugin:react/recommended'],
   settings: {
     react: {
       pragma: 'React',
