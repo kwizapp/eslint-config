@@ -9,47 +9,59 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        if: github.event_name == 'release'
       - uses: actions/setup-node@v1
+        if: github.event_name == 'release'
         with:
           node-version: 12
           registry-url: "https://npm.pkg.github.com"
           scope: "@kwizapp"
       - run: npm publish eslint-configs/javascript
+        if: github.event_name == 'release'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   publish-eslint-ts:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        if: github.event_name == 'release'
       - uses: actions/setup-node@v1
+        if: github.event_name == 'release'
         with:
           node-version: 12
           registry-url: "https://npm.pkg.github.com"
           scope: "@kwizapp"
       - run: npm publish eslint-configs/typescript
+        if: github.event_name == 'release'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   publish-eslint-ts-react:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        if: github.event_name == 'release'
       - uses: actions/setup-node@v1
+        if: github.event_name == 'release'
         with:
           node-version: 12
           registry-url: "https://npm.pkg.github.com"
           scope: "@kwizapp"
       - run: npm publish eslint-configs/typescript-react
+        if: github.event_name == 'release'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   publish-prettier-config:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        if: github.event_name == 'release'
       - uses: actions/setup-node@v1
+        if: github.event_name == 'release'
         with:
           node-version: 12
           registry-url: "https://npm.pkg.github.com"
           scope: "@kwizapp"
       - run: npm publish prettier-config
+        if: github.event_name == 'release'
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
