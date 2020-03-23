@@ -11,7 +11,7 @@ This repository holds the **Typescript** `eslint` configuration for all projects
 ### Installation
 
 ```bash
-npm install @kwizapp/@kwizapp/eslint-config-ts
+npm install @kwizapp/eslint-config-ts
 ```
 
 **Note:** make sure you have a `.npmrc` with the following content:
@@ -43,7 +43,7 @@ Create a `.eslintrc.js` file in the root of your project with the following cont
 
 ```js
 module.exports = {
-  extends: ["@kwizapp/@kwizapp/eslint-config-ts"]
+  extends: ["@kwizapp/eslint-config-ts"]
 };
 ```
 
