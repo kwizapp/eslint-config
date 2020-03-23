@@ -2,7 +2,7 @@
 
 [Link to Package](https://github.com/kwizapp/kwiz-dotfiles/packages/160122)
 
-### javascript
+### Javascript
 
 This repository holds the **base javascript** `eslint` configuration for all projects inside the **@kwizapp** organization.
 
@@ -26,11 +26,16 @@ Otherwise `npm` will not know here to pull the package from.
 
 Make sure your project has the following packages installed:
 
+- prettier
+- eslint
+- eslint-config-prettier
+- eslint-plugin-prettier
+
 ```shell
-npm install --save-dev prettier eslint prettier eslint-config-prettier eslint-plugin-prettier
+npm install --save-dev prettier eslint eslint-config-prettier eslint-plugin-prettier
 ```
 
-### Applying ESlint Rules
+### Applying ESLint Rules
 
 Create a `.eslintrc.js` file in the root of your project with the following content:
 
