@@ -1,0 +1,27 @@
+{
+  "name": "@kwizapp/prettier-config",
+  "version": "0.0.3",
+  "description": "prettier config for the kwiz organization",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwizapp/kwiz-dotfiles.git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "prettier.js"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwizapp/kwiz-dotfiles/issues"
+  },
+  "homepage": "https://github.com/kwizapp/kwiz-dotfiles/prettier-config#readme",
+  "maintainers": [
+    "Roland Schlaefli <rolandschlaefli@gmail.com>",
+    "Nik Zaugg <zauggnik@gmail.com>",
+    "Alex Scheitlin <alex.scheitlin@uzh.ch>"
+  ],
+  "peerDependencies": {
+    "prettier": ">=1.19.1 <2"
+  }
+}
