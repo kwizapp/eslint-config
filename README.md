@@ -12,6 +12,10 @@ This repository holds the configuration files for `prettier` and `eslint` that s
 
 Otherwise `npm` will not know here to pull the package from.
 
+**Login to Github with a Token**
+
+To install packages locally, you need to be logged in to Github with a Personal Access Token (PAT). The PAT requires at least `repo` and `read:packages` capabilities.
+
 ## @kwizapp/prettier-config
 
 ```bash
