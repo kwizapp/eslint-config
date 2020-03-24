@@ -1,6 +1,6 @@
 {
   "name": "@kwizapp/eslint-config-ts-react",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "typescript-react eslint config for the kwiz organization",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
     "Alex Scheitlin <alex.scheitlin@uzh.ch>"
   ],
   "dependencies": {
-    "@kwizapp/eslint-config-ts": "^0.0.6"
+    "@kwizapp/eslint-config-ts": "^0.0.7"
   },
   "peerDependencies": {
     "eslint-plugin-react": ">=7.17.0 <8"
