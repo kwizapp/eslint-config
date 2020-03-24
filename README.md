@@ -1,6 +1,6 @@
 # kwiz-dotfiles
 
-This repository holds the configuration files for `prettier` and `esling` that should be used in every project.
+This repository holds the configuration files for `prettier` and `eslint` that should be used in every project.
 
 ## General
 
