@@ -1,6 +1,6 @@
 {
   "name": "@kwizapp/eslint-config-js",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "base javascript eslint config for the kwiz organization",
   "repository": {
     "type": "git",
