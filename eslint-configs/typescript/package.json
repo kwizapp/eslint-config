@@ -1,0 +1,31 @@
+{
+  "name": "@kwizapp/eslint-config-ts",
+  "version": "1.0.0",
+  "description": "typescript eslint config for the kwiz organization",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kwizapp/kwiz-dotfiles.git"
+  },
+  "main": "index.js",
+  "keywords": [
+    "dotfiles",
+    "eslint"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwizapp/kwiz-dotfiles/issues"
+  },
+  "homepage": "https://github.com/kwizapp/kwiz-dotfiles#readme",
+  "maintainers": [
+    "Roland Schlaefli <rolandschlaefli@gmail.com>",
+    "Nik Zaugg <zauggnik@gmail.com>",
+    "Alex Scheitlin <alex.scheitlin@uzh.ch>"
+  ],
+  "dependencies": {
+    "@kwizapp/eslint-config-js": "^1.0.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">= 2",
+    "@typescript-eslint/parser": ">= 2"
+  }
+}
