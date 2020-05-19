@@ -1,6 +1,6 @@
 {
   "name": "@kwizapp/eslint-config-ts",
-  "version": "0.0.10",
+  "version": "1.0.0",
   "description": "typescript eslint config for the kwiz organization",
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
     "Alex Scheitlin <alex.scheitlin@uzh.ch>"
   ],
   "dependencies": {
-    "@kwizapp/eslint-config-js": "^0.0.10"
+    "@kwizapp/eslint-config-js": "^1.0.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": ">= 2",

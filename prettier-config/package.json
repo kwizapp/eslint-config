@@ -1,6 +1,6 @@
 {
   "name": "@kwizapp/prettier-config",
-  "version": "0.0.10",
+  "version": "1.0.0",
   "description": "prettier config for the kwiz organization",
   "repository": {
     "type": "git",
